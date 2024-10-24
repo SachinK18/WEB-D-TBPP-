@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Description and Date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="todo-input">
+            <input type="text" id="taskNameInput" placeholder="Task Name">
+            <input type="text" id="taskDescInput" placeholder="Task Description">
+            <input type="number" id="taskDateInput" min="1" max="31" placeholder="Day">
+            <button id="addTaskBtn">Add Task</button>
+            <button id="deleteAllBtn">Delete All</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
