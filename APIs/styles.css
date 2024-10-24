@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/2091576103/photo/a-close-up-shot-of-a-pet-owner-playing-with-her-cat-in-the-park.jpg?s=2048x2048&w=is&k=20&c=ovXWJN17NCm3LxsgRe41lVQelGnxRmfGYsRTkVVv6Iw=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.cat-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff6347;
+    margin-top: -40px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+.fact-box {
+    font-size: 1em;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+
+    
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dd4b39;
+}
